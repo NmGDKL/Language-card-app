@@ -1,0 +1,83 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  font-family: 'Segoe UI', sans-serif;
+  background-image: linear-gradient(to right, #F5D76E, #F9E798)
+}
+.logo-div{
+  display: flex;
+  width: 100%;
+  justify-content: center;
+}
+.logo{
+  width: 200px;
+  margin-top: 15px;
+}
+
+.main-container{
+  width: 400px;
+  height: 600px;
+  margin: 30px auto;
+  background: linear-gradient(45deg, #F48B29 46%, #53C0DD 10%, #53C0DD 55%, #F48B29 40%);
+
+
+  border-radius: 15px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+.header{
+  width: 100%;
+  text-align: center;
+  color: white;
+  font-size: 1.5rem;
+  padding: 5px 0 0 0;
+}
+
+.card{
+  background-color: #FBECDC;
+  width: 180px;
+  height: 120px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 15px;
+  cursor: pointer;
+  
+}
+.card img{
+  height:60px;
+  display: block;
+
+}
+
+h5{
+  text-align: center;
+  margin-top: 5px;
+  font-size: 1rem;
+}
+
+.card-backside{
+  padding: 0 10px 0 30px;
+  border: none;
+  text-align: left;
+  font-weight: bold;
+  font-size: 1rem;
+  color: #333;
+  line-height: 1.6rem;
+}
+
+
+.card:hover img{
+  transform: scale(130%);
+  transition: transform .4s ease-in-out;
+}
+
+.card:hover{
+  box-shadow: 0px 0px 5px 3px rgb(92, 92, 194);
+  transition: box-shadow .4s ease-in-out;
+}
